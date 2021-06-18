@@ -4,7 +4,7 @@ PODS:
   - KeyHolder (4.0.0):
     - Magnet (~> 3.2)
   - LetsMove (1.25)
-  - LoginServiceKit (2.2.0)
+  - LoginServiceKit (2.2.1)
   - Magnet (3.2.0):
     - Sauce (~> 2.1)
   - Nimble (9.2.0)
@@ -44,7 +44,7 @@ DEPENDENCIES:
   - BartyCrouch
   - KeyHolder
   - LetsMove
-  - LoginServiceKit (from `https://github.com/Clipy/LoginServiceKit.git`)
+  - LoginServiceKit
   - Magnet
   - Nimble
   - PINCache
@@ -65,6 +65,7 @@ SPEC REPOS:
     - BartyCrouch
     - KeyHolder
     - LetsMove
+    - LoginServiceKit
     - Magnet
     - Nimble
     - PINCache
@@ -83,21 +84,12 @@ SPEC REPOS:
     - SwiftHEXColors
     - SwiftLint
 
-EXTERNAL SOURCES:
-  LoginServiceKit:
-    :git: https://github.com/Clipy/LoginServiceKit.git
-
-CHECKOUT OPTIONS:
-  LoginServiceKit:
-    :commit: cf58b91b0ac247bd8bf5dccb5434ca60a930c1e1
-    :git: https://github.com/Clipy/LoginServiceKit.git
-
 SPEC CHECKSUMS:
   AEXML: 2fbb73d8724797ed2cde888731e176fa4d44dd83
   BartyCrouch: 69e5e6ec67e77951dc1c22aa48abbf05d175b81c
   KeyHolder: 457d8dde330a17452672756ae0e3b9c2e180a7e2
   LetsMove: 7b9fe44737707d984fbd3f47af46609a9a07b461
-  LoginServiceKit: 3c86ce2f2bcd1e373326839d6d863d8a6a5915b4
+  LoginServiceKit: e39022a6ea6169b3716fc3c43e89b2e7fd12f222
   Magnet: 8316a30fe91fdc6f2816ec0f04e20c72e341ca2e
   Nimble: 4f4a345c80b503b3ea13606a4f98405974ee4d0b
   PINCache: 7a8fc1a691173d21dbddbf86cd515de6efa55086
@@ -116,6 +108,6 @@ SPEC CHECKSUMS:
   SwiftHEXColors: 1cb6e5d55c52749aa33db8f088ac55eb71ca4c7f
   SwiftLint: dfd554ff0dff17288ee574814ccdd5cea85d76f7
 
-PODFILE CHECKSUM: 57ecd94a3cf36d020cb8926562e41104c4fea206
+PODFILE CHECKSUM: 0f6091148ddc8bb031f03545fbaa38d7778a6ed4
 
 COCOAPODS: 1.10.1

@@ -10,7 +10,7 @@ target 'Clipy' do
   pod 'RealmSwift'
   pod 'RxCocoa'
   pod 'RxSwift'
-  pod 'LoginServiceKit', :git => 'https://github.com/Clipy/LoginServiceKit.git'
+  pod 'LoginServiceKit'
   pod 'KeyHolder'
   pod 'Magnet'
   pod 'RxScreeen'
